@@ -230,7 +230,7 @@ This project contains two .py files. The training file and the module file is [m
       ![epoch_loss](https://github.com/amaninaas/Covid19_New_Cases_Prediction_Project/blob/4c10b0d828a7fd320f01958fff6cbf57ea08263f/Statics/Web%20capture_27-7-2022_15168_colab.research.google.com.jpeg)
 
   - **Performance of the model and the reports as follows:**
-      - <p align="justify">The mean_absolute_percentage_error is recorded at 8%. The details results is shown below. </p>
+      - <p align="justify">The mean_absolute_percentage_error is recorded at 8.5%. The details results is shown below. </p>
       ![MAPE](https://github.com/amaninaas/Covid19_New_Cases_Prediction_Project/blob/4c10b0d828a7fd320f01958fff6cbf57ea08263f/Statics/relu_8.5(2).JPG)
       
       - <p align="justify"> The plot line graph are shown below. </p>
@@ -239,7 +239,7 @@ This project contains two .py files. The training file and the module file is [m
       - <p align="justify"> The plot inverse graph are shown below. </p>
       ![line](https://github.com/amaninaas/Covid19_New_Cases_Prediction_Project/blob/4c10b0d828a7fd320f01958fff6cbf57ea08263f/Statics/relu_9.7(3).png) 
 
-  - The **MAPE recorded at 8%**, the graph shows **low loss, low mse** which indicates model is good and the graph of predicted vs Actual able to show **good-fit to the training dataset of Covid19**. **As conclusion, this model able to predict the new cases of Covid19.**
+  - The **MAPE recorded at 8.5%**, the graph shows **low loss, low mse** which indicates model is good and the graph of predicted vs Actual able to show **good-fit to the training dataset of Covid19**. **As conclusion, this model able to predict the new cases of Covid19.**
 
 
 # Credits :open_file_folder:

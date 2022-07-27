@@ -239,7 +239,7 @@ This project contains two .py files. The training file and the module file is [m
       - <p align="justify"> The plot inverse graph are shown below. </p>
       ![line](https://github.com/amaninaas/Covid19_New_Cases_Prediction_Project/blob/4c10b0d828a7fd320f01958fff6cbf57ea08263f/Statics/relu_9.7(3).png) 
 
-  - The **MAPE recorded at 8.5%**, the graph shows **low loss, low mse** which indicates model is good and the graph of predicted vs Actual able to show **good-fit to the training dataset of Covid19**. **As conclusion, this model able to predict the new cases of Covid19.**
+  - The **MAPE recorded at 8.5%**, the graph shows **low loss, low mse** which indicates model is good and the graph of predicted vs Actual able to show a **good-fit to the training dataset of Covid19**. **As conclusion, this model able to predict the new cases of Covid19.**
 
 
 # Credits :open_file_folder:

@@ -104,7 +104,7 @@ df_train.isna().sum()
 df_test['cases_new'] = df_test['cases_new'].interpolate()
 # To check the NaNs
 df_test.isna().sum()
-# NaNs in cases_new in train dataset have been interpolate
+# NaNs in cases_new in test dataset have been interpolate
 
 #%% Step 4: Features Selection
 

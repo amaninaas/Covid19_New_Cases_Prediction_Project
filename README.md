@@ -42,8 +42,8 @@ This project contains two .py files. The training file and the module file is [m
            df_train = pd.read_csv(CSV_PATH_TRAIN)
            df_test = pd.read_csv(CSV_PATH_TEST)
            
-           # From the dataset, the are a few rows in df[cases_new] have empty space and ?.
-           # To change cases_new into numeric and change ? and empty space into NaNs
+     - <p align="justify"> From the dataset, the are a few rows in df[cases_new] have empty space and ?.  To change cases_new into numeric and change ? and empty space into NaNs</p>           
+           
            df_train['cases_new'] = pd.to_numeric(df_train['cases_new'], errors='coerce')
 
 
@@ -65,11 +65,8 @@ This project contains two .py files. The training file and the module file is [m
 
                 # To check NaNs value
                 df_train.isna().sum()
-                # From this train dataset there are 12 in cases_new and 
-                # 342 NaNs in cluster_import,cluster_religious,cluster_community,
-                # cluster_highRisk,cluster_education,cluster_detentionCentre, 
-                # and cluster_workplace.
-                # This is because there are not yet this clusters in the begining of Covid-19.
+          
+        - <p align="justify"> From this train dataset there are 12 in cases_new and 342 NaNs in cluster_import,cluster_religious,cluster_community, cluster_highRisk,cluster_education,cluster_detentionCentre, and cluster_workplace. This is because there are not yet this clusters in the begining of Covid-19.</p>      
                 
       - Test dataset
            
@@ -89,7 +86,9 @@ This project contains two .py files. The training file and the module file is [m
 
                  # To check NaNs value
                  df_test.isna().sum()
-                 # From this test dataset there are 1 NaNs in cases_new
+                 
+        - <p align="justify"> From this test dataset there are 1 NaNs in cases_new</p>               
+                 
 
            
   - **Step 3) Data Cleaning:**
@@ -105,7 +104,7 @@ This project contains two .py files. The training file and the module file is [m
                df_test['cases_new'] = df_test['cases_new'].interpolate()
                # To check the NaNs
                df_test.isna().sum()
-               # NaNs in cases_new in train dataset have been interpolate
+               # NaNs in cases_new in test dataset have been interpolate
            
    - **Step 4) Features Selection**
       - Train dataset

@@ -165,7 +165,7 @@ This project contains two .py files. The training file and the module file is [m
 
     
    - **Model Development**
-       - <p align="justify"> By using the model Sequential, LSTM, dropout, and Dense. Our model development is been structured.</p> 
+       - <p align="justify"> By using the model Sequential, LSTM, dropout, and Dense. </p> 
        The model can be view in [classes.py](https://github.com/amaninaas/Covid19_New_Cases_Prediction_Project/blob/4c10b0d828a7fd320f01958fff6cbf57ea08263f/classes.py) file.  
        
               md = ModelDevelopment()

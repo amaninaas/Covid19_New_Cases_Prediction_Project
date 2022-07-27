@@ -9,10 +9,10 @@
 # Covid19_New_Cases_Prediction_Project :speech_balloon:
 <p align="justify"> The year 2020 was a catastrophic year for humanity. Pneumonia of unknown aetiology was first reported in December 2019., since then, COVID-19 spread to the whole world and became a global pandemic. More than 200 countries were affected due to pandemic and many countries were trying to save precious lives of their people by imposing travel restrictions, quarantines, social distances, event postponements and lockdowns to prevent the spread of the virus. However, due to lackadaisical attitude, efforts attempted by the governments were jeopardised, thus, predisposing to the wide spread of virus and lost of lives.
 
-The scientists believed that the absence of AI assisted automated tracking and predicting system is the cause of the wide spread of COVID-19 pandemic. Hence, the scientist proposed the usage of deep learning model to predict the daily COVID cases to determine if travel bans should be imposed or rescinded </p>
+The scientists believed that the absence of AI assisted automated tracking and predicting system is the cause of the wide spread of COVID-19 pandemic. Hence, the scientist proposed the usage of deep learning model to predict the daily COVID cases to determine if travel bans should be imposed or rescinded. </p>
 
 ## Project Descriptions :memo:
-<p align="justify"> The aim of this project is <b> to create a deep learning model with only LSTM, Dense and Dropout </b> to predict new cases for Covid19 </p> 
+<p align="justify"> The aim of this project is <b> to create a deep learning model with only LSTM, Dense and Dropout </b> to predict new cases for Covid19. </p> 
 
 ## Project Organization :file_folder:
   ```
@@ -22,7 +22,7 @@ The scientists believed that the absence of AI assisted automated tracking and p
   ├── models                                      : .pkl for mms_train & test
   ├──.gitattributes                               : .gitattributes
   ├── README.md                                   : Project Descriptions
-  ├── classes.py                                   : Module file in python format
+  ├── classes.py                                  : Module file in python format
   └── main_covid19.py                             : Main code file in python format
    ```
 
@@ -166,7 +166,7 @@ This project contains two .py files. The training file and the module file is [m
     
    - **Model Development**
        - <p align="justify"> By using the model Sequential, LSTM, dropout, and Dense. Our model development is been structured.</p> 
-       The model can be view in [classes.py](https://github.com/amaninaas/Covid19_New_Cases_Prediction_Project/blob/4c10b0d828a7fd320f01958fff6cbf57ea08263f/classes.py). file.  
+       The model can be view in [classes.py](https://github.com/amaninaas/Covid19_New_Cases_Prediction_Project/blob/4c10b0d828a7fd320f01958fff6cbf57ea08263f/classes.py) file.  
        
               md = ModelDevelopment()
 
@@ -220,11 +220,7 @@ This project contains two .py files. The training file and the module file is [m
                 print("Mean_Absolute_Percentage_Error: {}".format(mp.mape(actual_cases,
                                                                        predicted_cases)))
       
-      - <p align="justify"> The plot line graph are shown below. </p>
-      ![line](https://github.com/amaninaas/Covid19_New_Cases_Prediction_Project/blob/4c10b0d828a7fd320f01958fff6cbf57ea08263f/Statics/relu_9.7(2).png)
-      
-      - <p align="justify"> The plot inverse graph are shown below. </p>
-      ![line](https://github.com/amaninaas/Covid19_New_Cases_Prediction_Project/blob/4c10b0d828a7fd320f01958fff6cbf57ea08263f/Statics/relu_9.7(3).png)   
+  
       
 # Results and Discussion :pencil:
   - **Plotting the graph**
@@ -234,8 +230,17 @@ This project contains two .py files. The training file and the module file is [m
       ![epoch_loss](https://github.com/amaninaas/Covid19_New_Cases_Prediction_Project/blob/4c10b0d828a7fd320f01958fff6cbf57ea08263f/Statics/Web%20capture_27-7-2022_15168_colab.research.google.com.jpeg)
 
   - **Performance of the model and the reports as follows:**
-      - The mean_absolute_percentage_error is recorded at 8%. The details results is shown below. 
+      - <p align="justify">The mean_absolute_percentage_error is recorded at 8%. The details results is shown below. </p>
       ![MAPE](https://github.com/amaninaas/Covid19_New_Cases_Prediction_Project/blob/4c10b0d828a7fd320f01958fff6cbf57ea08263f/Statics/relu_8.5(2).JPG)
+      
+      - <p align="justify"> The plot line graph are shown below. </p>
+      ![line](https://github.com/amaninaas/Covid19_New_Cases_Prediction_Project/blob/4c10b0d828a7fd320f01958fff6cbf57ea08263f/Statics/relu_9.7(2).png)
+      
+      - <p align="justify"> The plot inverse graph are shown below. </p>
+      ![line](https://github.com/amaninaas/Covid19_New_Cases_Prediction_Project/blob/4c10b0d828a7fd320f01958fff6cbf57ea08263f/Statics/relu_9.7(3).png) 
+
+  - The **MAPE recorded at 8%**, the graph shows **low loss, low mse** which indicates model is good and the graph of predicted vs Actual able to show **good-fit to the training dataset of Covid19**. **As conclusion, this model able to predict the new cases of Covid19.**
+
 
 # Credits :open_file_folder:
 
